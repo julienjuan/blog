@@ -26,7 +26,7 @@ title: 'Julien Juan'
 #description: 'This is my new website'
 permalink: pretty
 #logo: "/assets/logo.jpg"
-logo: "/assets/Julien-Juan-9740.jpg"
+logo: "/blog/assets/Julien-Juan-9740.jpg"
 # Pagination
 paginate: 5
 paginate_path: blog/page:num
@@ -53,4 +53,4 @@ collections:
     description: "My thoughts and ideas"
     feature_text: |
       Welcome to my blog
-    feature_image: "/assets/logo/jpg"
+    feature_image: "/blog/assets/logo/jpg"
