@@ -36,9 +36,9 @@ navigation_header:
 - title: Articles
   url: /
 - title: A propos
-  url: /about/
+  url: /blog/about/
 - title: Contact
-  url: /contact/
+  url: /blog/contact/
 
 # Footer nav
 navigation_footer:
