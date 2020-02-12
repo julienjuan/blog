@@ -23,7 +23,7 @@ plugins:
 url: 'https://julienjuan.github.io/'
 baseurl: 'blog'
 title: 'Julien Juan'
-#description: 'This is my new website'
+description: 'This is my new website'
 permalink: pretty
 #logo: "/assets/logo.jpg"
 logo: "/assets/Julien-Juan-9740.jpg"
