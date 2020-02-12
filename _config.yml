@@ -21,7 +21,7 @@ plugins:
 
 # Site settings
 url: 'https://julienjuan.github.io/blog'
-baseurl: ''
+baseurl: 'blog'
 title: 'Julien Juan'
 description: 'This is my new website'
 permalink: pretty
