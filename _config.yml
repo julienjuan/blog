@@ -21,7 +21,7 @@ plugins:
 
 # Site settings
 url: 'https://julienjuan.github.io/'
-baseurl: 'https://julienjuan.github.io/blog'
+baseurl: 'blog'
 title: 'Julien Juan'
 description: 'This is my new website'
 permalink: pretty
@@ -37,9 +37,9 @@ navigation_header:
 - title: Articles
   url: /
 - title: A propos
-  url: /about/
+  url: /
 - title: Contact
-  url: /contact/
+  url: /
 
 # Footer nav
 navigation_footer:
