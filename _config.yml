@@ -20,7 +20,7 @@ plugins:
 - jekyll-remote-theme
 
 # Site settings
-url: 'https://julienjuan.github.io/'
+url: 'https://julienjuan.github.io/blog'
 baseurl: ''
 title: 'Julien Juan'
 #description: 'This is my new website'
