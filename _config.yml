@@ -35,7 +35,7 @@ paginate_path: page:num
 # Header nav
 navigation_header:
 - title: Articles
-  url: /
+  url: /posts/
 - title: A propos
   url: /about/
 - title: Contact
