@@ -20,22 +20,36 @@ plugins:
 - jekyll-remote-theme
 
 # Site settings
+encoding: utf-8 # Make sure the encoding is right
+lang: en-FR # Set the site language
 url: 'https://julienjuan.github.io/blog/'
 baseurl: /blog
 title: 'Julien Juan'
 description: 'This is my new website'
+repo: "https://github.com/julienjuan/blog"
 permalink: pretty
 #logo: "/assets/logo.jpg"
 logo: "/assets/Julien-Juan-9740.jpg"
 # Pagination
 paginate: 5
-#paginate_path: blog/page:num
-paginate_path: page:num
+paginate_path: blog/page:num
+email: "juan.julian@free.fr"
+# disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
+# google_analytics: ''
+# google_analytics_anonymize_ip: ''
+# service_worker: false # Will turn off the service worker if set to false
+css_inline: true # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
+
+sass:
+  style: compressed # Style compression
+permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
+excerpt_separator: <!-- more --> # Marks end of excerpt in posts
+timezone: Europe/Paris # Timezone for blog posts and alike
 
 # Header nav
 navigation_header:
 - title: Articles
-  url: /posts/
+  url: /blog/
 - title: A propos
   url: /about/
 - title: Contact
@@ -46,6 +60,13 @@ navigation_footer:
 - title: Back to top
   url: "#top"
 
+social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
+  Twitter: https://twitter.com/julienjuan
+  LinkedIn: https://www.linkedin.com/in/julienjuan
+  GitHub: https://github.com/julienjuan
+  link: https://julienjuan.com
+  RSS: /feed.xml
+
 # Collections
 collections:
   posts:
@@ -55,3 +76,4 @@ collections:
     feature_text: |
       Welcome to my blog
     feature_image: "/assets/logo/jpg"
+
