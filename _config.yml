@@ -93,10 +93,11 @@ collections:
     description: ""
     feature_text: |
       Welcome to my blog
-    feature_image: /assets/logos/logo@96px.png
+    #feature_image: /assets/logos/logo@96px.png
   scope:
       path: ""
-      type: posts
+      #type: posts
+      type: blog
   values:
     layout: single
     author_profile: true
@@ -111,7 +112,35 @@ defaults:
   # _posts
   - scope:
       path: ""
+      type: home
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
       type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: blog
     values:
       layout: single
       author_profile: true
