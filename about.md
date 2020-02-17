@@ -1,6 +1,5 @@
 ---
-#layout: page
-#layout: blog
+layout: page
 title: A propos de Julien
 ---
 

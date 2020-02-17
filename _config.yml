@@ -23,7 +23,7 @@ plugins:
 encoding: utf-8 # Make sure the encoding is right
 lang: en-FR # Set the site language
 url: 'https://julienjuan.github.io/blog/'
-baseurl: /blog
+#baseurl: /blog
 title: 'Julien Juan'
 description: 'This is my new website'
 repo: "https://github.com/julienjuan/blog"
@@ -111,7 +111,7 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: posts
+      type: page
     values:
       layout: single
       author_profile: true
