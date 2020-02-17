@@ -33,7 +33,25 @@ logo: "/assets/Julien-Juan-9740.jpg"
 # Pagination
 paginate: 5
 paginate_path: blog/page:num
-email: "juan.julian@free.fr"
+email: "juan.julien@free.fr"
+author:
+  name: "Julien Juan"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "I am an **amazing** person." # Note: Markdown is allowed
+  location: "Paris, France"
+  links:
+    - label: "Made Mistakes"
+      icon: "fas fa-fw fa-link"
+      url: "https://julienjuan.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/mmistakes"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/julienjuan"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/mmistakes"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
 # google_analytics: ''
 # google_analytics_anonymize_ip: ''
@@ -52,16 +70,16 @@ navigation_header:
   url: /blog/
 - title: A propos
   url: /about/
-- title: Contact
-  url: /contact/
+#- title: Contact
+#  url: /contact/
 
 # Footer nav
 navigation_footer:
 - title: Back to top
-  url: "#top"
+  url: '#top'
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
-  Twitter: https://twitter.com/julienjuan
+  #Twitter: https://twitter.com/julienjuan
   LinkedIn: https://www.linkedin.com/in/julienjuan
   GitHub: https://github.com/julienjuan
   link: https://julienjuan.com
@@ -70,10 +88,48 @@ social_links: # Appears in sidebar. Set the urls then uncomment and comment out 
 # Collections
 collections:
   posts:
-    title: Posts
+    title: Mes réalisations et ambitions
     output: true
-    description: "My thoughts and ideas"
+    description: ""
     feature_text: |
       Welcome to my blog
-    feature_image: "/assets/logo/jpg"
+    feature_image: /assets/logos/logo@96px.png
+  scope:
+      path: ""
+      type: posts
+  values:
+    layout: single
+    author_profile: true
+    read_time: true
+    comments: true
+    share: true
+    related: true
+
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
 
