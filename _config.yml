@@ -106,21 +106,6 @@ collections:
     share: true
     related: true
 
-
-# Defaults
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: home
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-
 # Defaults
 defaults:
   # _posts
@@ -134,31 +119,3 @@ defaults:
       comments: true
       share: true
       related: true
-
-# Defaults
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: blog
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-
