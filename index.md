@@ -7,7 +7,7 @@ feature_image: 'assets/images/schematic_background.jpg'
 
 L'objectif premier de ce blog est de partager le fruit de mes diverses expériences professionnelles.
 
-Au fil de mes différents emplois, j'ai acquis la certitude qu'il est possible de concevoir, développer et industrialiser des produits en France
+Au fil de mes différents postes, j'ai acquis la certitude qu'il est encore possible de concevoir, développer et industrialiser des produits en France
 
 J'expliquerai entre autre au travers de différents billets:
 * comment garantir la bonne industrialisation d'un produit dès sa conception
